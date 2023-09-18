@@ -3,10 +3,42 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Sign-up Sheet</title>
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    
+    <div class="image">
+        <img src="plants.jpg" alt="plants">
+    </div>
+    <div class="forms">
+        <div class="formwrap">
+            <h1 class="title">Let's do this!</h1>
+            <div class="group1">
+                <label for="fname">
+                    First Name: <input type="text" id="fname" name="first_name" />
+                </label>
+                <label for="lname">
+                    Last Name: <input type="text" id="lname" name="last_name" />
+                </label>
+            </div>
+            <div class="group2">
+                <label for="email">
+                    Email: <input type="email" id="email" name="email" />
+                </label>
+                <label for="phone">
+                    Phone Number: <input type="number" id="phone" name="phone" />
+                </label>
+            </div>
+            <div class="group3">
+                <label for="password">
+                    Password: <input type="password" id="password" name="password" />
+                </label>
+                <label for="cpassword">
+                    Confirm Password: <input type="password" id="cpassword" name="cpassword" />
+                </label>
+            </div>
+        </div>
+    </div>
+    <input type="submit" value="Create Account">
 </body>
 </html>
